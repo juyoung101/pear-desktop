@@ -118,7 +118,7 @@ export class DiscordService {
         songInfo.alternativeTitle ?? songInfo.title,
       ), // Song title
       detailsUrl: songInfo.url ?? undefined,
-      state: sanitizeActivityText(songInfo.tags?.at(0) ?? songInfo.artist), // Artist name
+      state: sanitizeActivityText(songInfo.title + ' - ' + songInfo.artist), // Song Title and Artist name
       stateUrl: songInfo.artistUrl,
       largeImageKey: songInfo.imageSrc ?? undefined,
       largeImageText: songInfo.album
