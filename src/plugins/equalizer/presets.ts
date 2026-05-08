@@ -15,4 +15,10 @@ export const presetConfigs: Record<Preset, FilterConfig> = {
     Q: 100,
     gain: 12.0,
   },
+  'bass-muter': {
+    type: 'lowshelf',
+    frequency: 80,
+    Q: 100,
+    gain: -12.0,
+  },
 };
