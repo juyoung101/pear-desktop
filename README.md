@@ -317,6 +317,7 @@ Uses [Playwright](https://playwright.dev/) to test the app.
 ## License
 
 MIT © [pear-devs](https://github.com/pear-devs/pear-desktop)
+(personalized by juyoung101)
 
 ## FAQ
 
